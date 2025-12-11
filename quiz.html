@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quiz | DigiTech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+  <div class="brand">
+    <div class="logo">🔒</div>
+    <h1>Quiz</h1>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="learn.html">Learn</a>
+    <a href="tips.html">Tips</a>
+    <a href="resources.html">Resources</a>
+  </nav>
+</header>
+
+      <h2>Test Your Knowledge</h2>
+          <div class="card">
+            <div class="question">1. Which is the strongest approach for creating passwords?</div>
+
+            <details class="option-block">
+              <summary class="option">Using a single word you like</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Random short passwords you can remember</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">A long passphrase with multiple unrelated words</summary>
+              <div class="answer correct">✅ Correct</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Your birthday + name</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+          </div>
+
+          <div class="card">
+            <div class="question">2. You receive an email about resetting your bank password. What do you do?</div>
+
+            <details class="option-block">
+              <summary class="option">Click the link right away</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Reply asking for details</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Go to the bank website manually and log in to check</summary>
+              <div class="answer correct">✅ Correct</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Forward to a friend</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+          </div>
+
+          <div class="card">
+            <div class="question">3. Two-factor authentication (2FA) using an authenticator app is:</div>
+
+            <details class="option-block">
+              <summary class="option">Less secure than SMS</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">A great additional protection against account takeover</summary>
+              <div class="answer correct">✅ Correct</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Only needed for banks</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+
+            <details class="option-block">
+              <summary class="option">Illegal in some countries</summary>
+              <div class="answer wrong">❌ Incorrect</div>
+            </details>
+          </div>
+<footer>
+      <div>© <span id="year"></span> Digital Literacy & Cyber Safety — Built with care</div>
+      <div class="small">Made for learners, parents, and community leaders</div>
+    </footer>
+  </div>
+
+  <script>
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  
+</div>
+</body>
+</html>
